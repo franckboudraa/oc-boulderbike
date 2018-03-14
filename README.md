@@ -1,24 +1,28 @@
-# README
+# Boulder Bike Server
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Boulder Bike client code available here: https://github.com/franckboudraa/oc-boulderbike-client
 
-Things you may want to cover:
+Use Flickr & Google Maps APIs
 
-* Ruby version
+Front-End:
 
-* System dependencies
+* React
+* Redux
+* React Router
+* Semantic UI (React version)
+* Hosted on AWS S3
 
-* Configuration
+Don't forget to include React env variables (.env.local):
 
-* Database creation
+    REACT_APP_FLICKR_KEY=your_flickr_api_key
+    REACT_APP_BACKEND_URL=https://yourboulderbike.backend.com
+    REACT_APP_GMAP_KEY=your_googlemaps_api_key
 
-* Database initialization
+Back-End:
 
-* How to run the test suite
+* Ruby
+* Ruby on Rails
+* PostgreSQL
+* Hosted on Heroku
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Preview: http://boulderbike.franckboudraa.me
