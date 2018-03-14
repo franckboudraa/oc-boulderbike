@@ -5,7 +5,7 @@ class SubmissionsController < ApplicationController
     if @submission.save
       render json: {"status":"success"}
     else
-      render json:{"status":"error"}
+      render :status => 400
     end
   end
 
